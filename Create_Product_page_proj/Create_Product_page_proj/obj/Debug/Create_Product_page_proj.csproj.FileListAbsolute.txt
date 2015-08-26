@@ -1,0 +1,4 @@
+C:\Users\admin\Desktop\Demo Project\Product Catalogue\Create_Product_page_proj\Create_Product_page_proj\bin\Create_Product_page_proj.dll
+C:\Users\admin\Desktop\Demo Project\Product Catalogue\Create_Product_page_proj\Create_Product_page_proj\bin\Create_Product_page_proj.pdb
+C:\Users\admin\Desktop\Demo Project\Product Catalogue\Create_Product_page_proj\Create_Product_page_proj\obj\Debug\Create_Product_page_proj.dll
+C:\Users\admin\Desktop\Demo Project\Product Catalogue\Create_Product_page_proj\Create_Product_page_proj\obj\Debug\Create_Product_page_proj.pdb
