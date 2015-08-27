@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\GetAllProducts.dll
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\GetAllProducts.pdb
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\nunit.framework.dll
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\nunit.framework.xml
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\obj\Debug\GetAllProducts.dll
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\obj\Debug\GetAllProducts.pdb
