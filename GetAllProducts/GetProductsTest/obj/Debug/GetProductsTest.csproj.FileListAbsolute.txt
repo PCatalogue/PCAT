@@ -1,0 +1,9 @@
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetProductsTest\obj\Debug\GetProductsTest.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetProductsTest\bin\Debug\GetProductsTest.dll
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetProductsTest\bin\Debug\GetProductsTest.pdb
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetProductsTest\bin\Debug\GetAllProducts.dll
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetProductsTest\bin\Debug\nunit.framework.dll
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetProductsTest\bin\Debug\GetAllProducts.pdb
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetProductsTest\bin\Debug\nunit.framework.xml
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetProductsTest\obj\Debug\GetProductsTest.dll
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetProductsTest\obj\Debug\GetProductsTest.pdb

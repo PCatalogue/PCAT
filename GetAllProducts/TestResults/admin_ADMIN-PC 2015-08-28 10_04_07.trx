@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b421d4f4-9026-4be6-ba67-c66fb43f7f6b" name="admin@ADMIN-PC 2015-08-28 10:04:07" runUser="admin-PC\admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9bac262a-b0cb-485f-9f90-65641fcbc0cf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="admin_ADMIN-PC 2015-08-28 10_04_07">
+      <DeploymentItem filename="C:\Program Files (x86)\NUnit 2.6.4\bin\framework\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\GetAllProducts.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-08-28T10:04:07.7572813+05:30" queuing="2015-08-28T10:04:08.1883059+05:30" start="2015-08-28T10:04:08.2483094+05:30" finish="2015-08-28T10:04:09.8417149+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetProductDescriptionByProductNameTest" storage="c:\users\admin\desktop\user82\test\getallproducts\getproductstest\bin\debug\getproductstest.dll" id="25ce79a0-f7e7-b984-6fdd-3a7876405e49">
+      <Execution id="0e6872a1-a084-487f-83b0-1c868a4d4244" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/user82/Test/GetAllProducts/GetProductsTest/bin/Debug/GetProductsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GetProductsTest.GetAllProductsTest, GetProductsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetProductDescriptionByProductNameTest" />
+      <AspNet webSiteUrl="http://localhost:6001/">
+        <Host pathToWebApp="C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="25ce79a0-f7e7-b984-6fdd-3a7876405e49" executionId="0e6872a1-a084-487f-83b0-1c868a4d4244" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0e6872a1-a084-487f-83b0-1c868a4d4244" testId="25ce79a0-f7e7-b984-6fdd-3a7876405e49" testName="GetProductDescriptionByProductNameTest" computerName="ADMIN-PC" startTime="2015-08-28T10:04:08.3285122+05:30" endTime="2015-08-28T10:04:09.8105148+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e6872a1-a084-487f-83b0-1c868a4d4244">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:6001/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_GetProductDescriptio.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="ADMIN-PC\WebRequestResponse_GetProductDescriptio.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

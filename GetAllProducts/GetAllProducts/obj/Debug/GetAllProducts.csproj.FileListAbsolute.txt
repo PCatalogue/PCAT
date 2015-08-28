@@ -4,3 +4,4 @@ C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\nunit.frame
 C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\nunit.framework.xml
 C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\obj\Debug\GetAllProducts.dll
 C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\obj\Debug\GetAllProducts.pdb
+C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\obj\Debug\GetAllProducts.csprojResolveAssemblyReference.cache

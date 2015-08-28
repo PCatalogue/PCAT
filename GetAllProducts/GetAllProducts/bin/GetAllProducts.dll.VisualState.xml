@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1015]C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\GetAllProducts.dll</TopNode>
+  <SelectedNode>[0-1016]GetAllProducts</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1015]C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\GetAllProducts.dll" Expanded="true" />
+    <Node UniqueName="[0-1016]GetAllProducts" Expanded="true" />
+    <Node UniqueName="[0-1006]GetAllProducts.GetProductsByServiceIDTest.NullParameterTest" Expanded="true" />
+    <Node UniqueName="[0-1008]GetAllProducts.GetProductsByServiceIDTest.WrongArguementFormatTest" Expanded="true" />
+  </Nodes>
+</VisualState>
