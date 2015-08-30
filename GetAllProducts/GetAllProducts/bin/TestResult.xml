@@ -1,17 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\GetAllProducts.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-08-28" time="11:23:22">
+<test-results name="C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\GetAllProducts.dll" total="9" errors="3" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-08-28" time="18:37:36">
   <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="ADMIN-PC" user="admin" user-domain="admin-PC" />
   <culture-info current-culture="en-IN" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\GetAllProducts.dll" executed="True" result="Success" success="True" time="0.007" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\bin\GetAllProducts.dll" executed="True" result="Failure" success="False" time="0.191" asserts="0">
     <results>
-      <test-suite type="Namespace" name="GetAllProducts" executed="True" result="Success" success="True" time="0.006" asserts="0">
+      <test-suite type="Namespace" name="GetAllProducts" executed="True" result="Failure" success="False" time="0.177" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="GetProductsByServiceIDTest" executed="True" result="Success" success="True" time="0.003" asserts="0">
+          <test-suite type="TestFixture" name="GetAllProductsTest" executed="True" result="Failure" success="False" time="0.116" asserts="0">
             <results>
-              <test-suite type="ParameterizedTest" name="WrongArguementFormatTest" executed="True" result="Success" success="True" time="0.002" asserts="0">
+              <test-case name="GetAllProducts.GetAllProductsTest.FormatExceptionTest" executed="True" result="Success" success="True" time="0.018" asserts="0" />
+              <test-case name="GetAllProducts.GetAllProductsTest.InvalidCastExceptionTest" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <reason>
+                  <message><![CDATA[]]></message>
+                </reason>
+              </test-case>
+              <test-case name="GetAllProducts.GetAllProductsTest.ProductsNotEmptyTest" executed="True" result="Error" success="False" time="0.082" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                  <stack-trace><![CDATA[at GetAllProducts.GetAllProducts.GetAllProductsList() in C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\GetAllProducts.asmx.cs:line 32
+at GetAllProducts.GetAllProductsTest.ProductsNotEmptyTest() in C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\GetAllProductsTest.cs:line 18
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="GetEnterpriseProductsTest" executed="True" result="Failure" success="False" time="0.005" asserts="0">
+            <results>
+              <test-case name="GetAllProducts.GetEnterpriseProductsTest.FormatExceptionTest" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+              <test-case name="GetAllProducts.GetEnterpriseProductsTest.ListNotEmptyTest" executed="True" result="Error" success="False" time="0.003" asserts="0">
+                <failure>
+                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                  <stack-trace><![CDATA[at GetAllProducts.GetAllProducts.GetEnterpriseProducts(String state_code, Int32 zip) in C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\GetAllProducts.asmx.cs:line 135
+at GetAllProducts.GetEnterpriseProductsTest.ListNotEmptyTest() in C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\GetAllProductsTest.cs:line 127
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="GetProductsByServiceIDTest" executed="True" result="Failure" success="False" time="0.024" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="CorrectArguementTest" executed="True" result="Failure" success="False" time="0.004" asserts="0">
                 <results>
-                  <test-case name="GetAllProducts.GetProductsByServiceIDTest.WrongArguementFormatTest(&quot;2&quot;,1)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="GetAllProducts.GetProductsByServiceIDTest.CorrectArguementTest(&quot;4&quot;,&quot;NY&quot;)" executed="True" result="Error" success="False" time="0.003" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                      <stack-trace><![CDATA[at GetAllProducts.GetAllProducts.GetProductsByServiceID(String serviceid, String state_code) in C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\GetAllProducts.asmx.cs:line 54
+at GetAllProducts.GetProductsByServiceIDTest.CorrectArguementTest(String service_id, String state_code) in C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\GetAllProductsTest.cs:line 113
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-case name="GetAllProducts.GetProductsByServiceIDTest.FormatExceptionTest" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+              <test-suite type="ParameterizedTest" name="NullParameterTest" executed="True" result="Failure" success="False" time="0.002" asserts="0">
+                <results>
+                  <test-case name="GetAllProducts.GetProductsByServiceIDTest.NullParameterTest(null,null)" executed="True" result="Failure" success="False" time="0.002" asserts="0">
+                    <failure>
+                      <message><![CDATA[An unexpected exception type was thrown
+Expected: System.ArgumentNullException
+ but was: System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                      <stack-trace><![CDATA[at GetAllProducts.GetAllProducts.GetProductsByServiceID(String serviceid, String state_code) in C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\GetAllProducts.asmx.cs:line 54
+at GetAllProducts.GetProductsByServiceIDTest.NullParameterTest(String n1, String n2) in C:\Users\admin\Desktop\user82\Test\GetAllProducts\GetAllProducts\GetAllProductsTest.cs:line 95
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="WrongArguementFormatTest" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="GetAllProducts.GetProductsByServiceIDTest.WrongArguementFormatTest(&quot;2&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                 </results>
               </test-suite>
             </results>

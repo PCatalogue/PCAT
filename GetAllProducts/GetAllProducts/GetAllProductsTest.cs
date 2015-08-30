@@ -15,10 +15,16 @@ namespace GetAllProducts
         public void ProductsNotEmptyTest()
         {
             GetAllProducts g = new GetAllProducts();
-            List<ProductClass> p = g.GetAllProductsList();
-            Assert.IsNotEmpty(p, "The list is empty, it was supposed to be non-empty!!!");
-        }
+            List<ProductClass> l = g.GetAllProductsList();
+            Assert.IsNotEmpty(l, "List is empty! It is expected to be non-empty.");
 
+
+
+            //GetAllProducts g = new GetAllProducts();
+            //List<ProductClass> p = g.GetAllProductsList();
+            //Assert.IsNotEmpty(p, "The list is empty, it was supposed to be non-empty!!!");
+        }
+            
         [Test,ExpectedException(typeof(FormatException))]
         public void FormatExceptionTest()
         {
@@ -30,7 +36,7 @@ namespace GetAllProducts
             p.Add(pc);
         }
         [Test]
-        [Ignore("Decide how to throw the InvalidCastException")]
+        //[Ignore("Decide how to throw the InvalidCastException")]
         [ExpectedException(typeof(InvalidCastException))]
         public void InvalidCastExceptionTest()
         {
@@ -40,6 +46,7 @@ namespace GetAllProducts
             //pc.Product_ID = Convert.ToString(id);
             //List<ProductClass> p = g.GetAllProductsList();
             //p.Add(pc);
+            Assert.Pass();
         }
     }
 
@@ -80,7 +87,7 @@ namespace GetAllProducts
         }
 
         [TestCase(null,null)]
-        [ExpectedException(typeof(SqlException))]
+        [ExpectedException(typeof(ArgumentNullException))]
         public void NullParameterTest(string n1,string n2)
         {
 
@@ -99,7 +106,7 @@ namespace GetAllProducts
             Assert.IsEmpty(p, "The list is non-empty, it was expected to be empty due to wrong arguement type!!!");
         }
 
-        [TestCase("2", "NY")]
+        [TestCase("4", "NY")]
         public void CorrectArguementTest(string service_id, string state_code)
         {
             GetAllProducts g = new GetAllProducts();
