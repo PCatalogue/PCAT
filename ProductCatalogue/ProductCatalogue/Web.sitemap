@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+        <siteMapNode url="NewPCR.aspx" title="New PCR"  description="New PCR" />
+        <siteMapNode url="PCRtoProduction.aspx" title="Move to Production"  description="Move to Production" />
+    </siteMapNode>
+</siteMap>

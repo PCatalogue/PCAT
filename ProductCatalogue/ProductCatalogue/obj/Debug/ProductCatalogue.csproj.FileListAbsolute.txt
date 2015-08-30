@@ -1,0 +1,12 @@
+C:\Project\ProductCatalogue\ProductCatalogue\bin\ProductCatalogue.dll
+C:\Project\ProductCatalogue\ProductCatalogue\bin\ProductCatalogue.pdb
+C:\Project\ProductCatalogue\ProductCatalogue\obj\Debug\RdlCompile.cache
+C:\Project\ProductCatalogue\ProductCatalogue\obj\Debug\RdlCompile.compiled
+C:\Project\ProductCatalogue\ProductCatalogue\obj\Debug\ProductCatalogue.dll
+C:\Project\ProductCatalogue\ProductCatalogue\obj\Debug\ProductCatalogue.pdb
+C:\Project - Copy\ProductCatalogue\ProductCatalogue\bin\ProductCatalogue.dll
+C:\Project - Copy\ProductCatalogue\ProductCatalogue\bin\ProductCatalogue.pdb
+C:\Project - Copy\ProductCatalogue\ProductCatalogue\obj\Debug\RdlCompile.cache
+C:\Project - Copy\ProductCatalogue\ProductCatalogue\obj\Debug\RdlCompile.compiled
+C:\Project - Copy\ProductCatalogue\ProductCatalogue\obj\Debug\ProductCatalogue.dll
+C:\Project - Copy\ProductCatalogue\ProductCatalogue\obj\Debug\ProductCatalogue.pdb
